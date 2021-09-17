@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<form action="/action_page.php">
+  <div class="container">
+    <h1 align="middle"> Customer Details</h1>
+    
+    <hr>
+    <label for="name"><b>Customer Name</b></label>
+    <input type="text" placeholder="Enter name" name="name" id="name" required>
+
+    <label for="contact_no"><b>Contact_no</b></label>
+    <input type="text" placeholder="Enter Contact_no" name="contact_no" id="contact_no" required>
+    <br>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    <!-- <div *ngIf="email.errors.pattern">
+        Email must be a valid email address format
+    </div> -->
+<br>
+
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <!-- <label for="address"><b>Address</b></label>
+    <input type="text" placeholder="Enter address" name="psw" id="address" required> -->
+
+    <button type="submit" class="registerbtn">Next</button>
+  </div>
+</form>
+</body>
+</html>
